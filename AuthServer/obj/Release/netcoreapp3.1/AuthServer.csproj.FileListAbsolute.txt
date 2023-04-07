@@ -1,0 +1,803 @@
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\appsettings.Development.json
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\appsettings.json
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.exe
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.deps.json
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.runtimeconfig.json
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.runtimeconfig.dev.json
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.pdb
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.CSharp.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\mscorlib.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\netstandard.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.AppContext.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Buffers.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.Specialized.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Configuration.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Console.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Data.Common.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Data.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Drawing.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Globalization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Pipelines.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Pipes.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.Expressions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.Parallel.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.Queryable.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Memory.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Http.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.HttpListener.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Mail.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.NameResolution.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Ping.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Requests.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Security.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Sockets.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebClient.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebProxy.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Numerics.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ObjectModel.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Resources.Reader.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Resources.Writer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Handles.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Loader.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.AccessControl.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Claims.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Permissions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Principal.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.SecureString.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ServiceProcess.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Channels.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Thread.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Timer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Transactions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Transactions.Local.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.ValueTuple.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Web.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Windows.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Windows.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.Linq.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.Serialization.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XDocument.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\refs\WindowsBase.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Views.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Views.pdb
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Humanizer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.AspNetCore.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Extensions.Logging.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Formatting.Compact.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Settings.Configuration.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Sinks.Console.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Sinks.Debug.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Serilog.Sinks.File.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\System.Text.Json.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.dll
+F:\cooftech\AuthServer\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.pdb
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.csprojAssemblyReference.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.csproj.CoreCompileInputs.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.MvcApplicationPartsAssemblyInfo.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.MvcApplicationPartsAssemblyInfo.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorAssemblyInfo.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorAssemblyInfo.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.AssemblyInfoInputs.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.AssemblyInfo.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.TagHelpers.input.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.TagHelpers.output.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorCoreGenerate.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorTargetAssemblyInfo.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorTargetAssemblyInfo.cs
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.Views.pdb
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.csproj.CopyComplete
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\staticwebassets\AuthServer.StaticWebAssets.Manifest.cache
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\staticwebassets\AuthServer.StaticWebAssets.xml
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.dll
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.pdb
+F:\cooftech\AuthServer\AuthServer\obj\Release\netcoreapp3.1\AuthServer.genruntimeconfig.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\appsettings.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.exe
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.deps.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.runtimeconfig.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.runtimeconfig.dev.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\mscorlib.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\netstandard.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.AppContext.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Buffers.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Configuration.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Console.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Data.Common.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Data.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Drawing.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Globalization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Memory.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Http.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Security.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Numerics.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Transactions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Web.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Windows.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\refs\WindowsBase.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Views.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Views.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Dapper.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\MailKit.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\MimeKit.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.AspNetCore.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Extensions.Logging.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Formatting.Compact.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Settings.Configuration.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Sinks.Console.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Sinks.Debug.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Serilog.Sinks.File.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\System.Text.Json.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.csprojAssemblyReference.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.AssemblyInfoInputs.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.AssemblyInfo.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.csproj.CoreCompileInputs.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.MvcApplicationPartsAssemblyInfo.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.MvcApplicationPartsAssemblyInfo.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorAssemblyInfo.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorAssemblyInfo.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\staticwebassets\AuthServer.StaticWebAssets.Manifest.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\staticwebassets\AuthServer.StaticWebAssets.xml
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\scopedcss\bundle\AuthServer.styles.css
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.TagHelpers.input.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.TagHelpers.output.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorCoreGenerate.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorTargetAssemblyInfo.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.RazorTargetAssemblyInfo.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.Views.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.csproj.CopyComplete
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer\obj\Release\netcoreapp3.1\AuthServer.genruntimeconfig.cache

@@ -1,0 +1,412 @@
+2021-06-04 14:14:31.941 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 14:14:32.898 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 14:14:32.898 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 14:14:32.898 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 14:14:32.898 +07:00 [INF] Hosting environment: Development
+2021-06-04 14:14:32.898 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 14:14:34.224 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 14:14:34.310 +07:00 [INF] Request finished in 94.6379ms 200 text/html;charset=utf-8
+2021-06-04 14:14:34.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 14:14:34.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 14:14:34.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 14:14:34.361 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 14:14:34.361 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 14:14:34.362 +07:00 [INF] Request finished in 26.0951ms 200 text/css
+2021-06-04 14:14:34.362 +07:00 [INF] Request finished in 26.0951ms 200 application/javascript
+2021-06-04 14:14:34.383 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 14:14:34.386 +07:00 [INF] Request finished in 50.1678ms 200 application/javascript
+2021-06-04 14:14:34.575 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 14:14:34.674 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:14:34.682 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:14:34.710 +07:00 [INF] Request finished in 27.6022ms 404 
+2021-06-04 14:14:34.710 +07:00 [INF] Request finished in 35.4255ms 404 
+2021-06-04 14:14:34.719 +07:00 [INF] Request finished in 144.7438ms 200 application/json;charset=utf-8
+2021-06-04 14:14:34.733 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:14:34.734 +07:00 [INF] Request finished in 0.4536ms 404 
+2021-06-04 14:14:34.736 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:14:34.736 +07:00 [INF] Request finished in 0.5408ms 404 
+2021-06-04 14:14:51.633 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/register application/json 88
+2021-06-04 14:14:51.639 +07:00 [INF] CORS policy execution successful.
+2021-06-04 14:14:51.644 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2021-06-04 14:14:51.689 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 14:14:52.616 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 14:14:53.333 +07:00 [INF] Executed DbCommand (60ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 14:14:53.462 +07:00 [WRN] User validation failed: DuplicateUserName.
+2021-06-04 14:14:53.478 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+2021-06-04 14:14:53.488 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 14:14:53.499 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 1805.6409ms
+2021-06-04 14:14:53.500 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2021-06-04 14:14:53.504 +07:00 [INF] Request finished in 1870.541ms 200 application/json; charset=utf-8
+2021-06-04 14:32:41.973 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 14:32:42.903 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 14:32:42.903 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 14:32:42.903 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 14:32:42.903 +07:00 [INF] Hosting environment: Development
+2021-06-04 14:32:42.903 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 14:32:44.390 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 14:32:44.503 +07:00 [INF] Request finished in 117.6204ms 200 text/html;charset=utf-8
+2021-06-04 14:32:44.531 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 14:32:44.531 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 14:32:44.531 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 14:32:44.562 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 14:32:44.562 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 14:32:44.568 +07:00 [INF] Request finished in 37.2207ms 200 application/javascript
+2021-06-04 14:32:44.568 +07:00 [INF] Request finished in 37.2033ms 200 text/css
+2021-06-04 14:32:44.591 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 14:32:44.597 +07:00 [INF] Request finished in 65.9266ms 200 application/javascript
+2021-06-04 14:32:44.776 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 14:32:44.870 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:32:44.870 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:32:44.882 +07:00 [INF] Request finished in 11.8789ms 404 
+2021-06-04 14:32:44.882 +07:00 [INF] Request finished in 11.8782ms 404 
+2021-06-04 14:32:44.898 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:32:44.899 +07:00 [INF] Request finished in 0.652ms 404 
+2021-06-04 14:32:44.901 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:32:44.901 +07:00 [INF] Request finished in 0.37ms 404 
+2021-06-04 14:32:44.923 +07:00 [INF] Request finished in 147.7663ms 200 application/json;charset=utf-8
+2021-06-04 14:33:02.185 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-04 14:33:02.192 +07:00 [INF] CORS policy execution successful.
+2021-06-04 14:33:02.196 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 14:33:02.255 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 14:33:03.178 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 14:33:03.862 +07:00 [INF] Executed DbCommand (73ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 14:33:04.099 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-04 14:33:04.131 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-04 14:33:04.149 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-04 14:33:04.158 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-04 14:33:04.508 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 14:33:04.521 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2261.2275ms
+2021-06-04 14:33:04.522 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 14:33:04.526 +07:00 [INF] Request finished in 2340.7932ms 200 application/json; charset=utf-8
+2021-06-04 14:46:06.688 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 14:46:07.477 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 14:46:07.477 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 14:46:07.478 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 14:46:07.478 +07:00 [INF] Hosting environment: Development
+2021-06-04 14:46:07.478 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 14:46:08.658 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 14:46:08.754 +07:00 [INF] Request finished in 100.2295ms 200 text/html;charset=utf-8
+2021-06-04 14:46:08.785 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 14:46:08.785 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 14:46:08.785 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 14:46:08.834 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 14:46:08.834 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 14:46:08.834 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 14:46:08.837 +07:00 [INF] Request finished in 52.3229ms 200 application/javascript
+2021-06-04 14:46:08.837 +07:00 [INF] Request finished in 52.4334ms 200 application/javascript
+2021-06-04 14:46:08.837 +07:00 [INF] Request finished in 52.3228ms 200 text/css
+2021-06-04 14:46:09.070 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 14:46:09.169 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:46:09.169 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:46:09.185 +07:00 [INF] Request finished in 16.2651ms 404 
+2021-06-04 14:46:09.185 +07:00 [INF] Request finished in 16.2649ms 404 
+2021-06-04 14:46:09.201 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:46:09.202 +07:00 [INF] Request finished in 0.597ms 404 
+2021-06-04 14:46:09.204 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:46:09.205 +07:00 [INF] Request finished in 0.3877ms 404 
+2021-06-04 14:46:09.234 +07:00 [INF] Request finished in 164.6993ms 200 application/json;charset=utf-8
+2021-06-04 14:46:39.677 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 14:46:40.707 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 14:46:40.708 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 14:46:40.708 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 14:46:40.709 +07:00 [INF] Hosting environment: Development
+2021-06-04 14:46:40.709 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 14:46:42.138 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 14:46:42.281 +07:00 [INF] Request finished in 148.611ms 200 text/html;charset=utf-8
+2021-06-04 14:46:42.308 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 14:46:42.308 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 14:46:42.308 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 14:46:42.332 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 14:46:42.351 +07:00 [INF] Request finished in 42.6142ms 200 text/css
+2021-06-04 14:46:42.352 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 14:46:42.353 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 14:46:42.354 +07:00 [INF] Request finished in 46.3548ms 200 application/javascript
+2021-06-04 14:46:42.354 +07:00 [INF] Request finished in 46.3168ms 200 application/javascript
+2021-06-04 14:46:42.564 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 14:46:42.685 +07:00 [INF] Request finished in 121.1533ms 200 application/json;charset=utf-8
+2021-06-04 14:46:42.767 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:46:42.767 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:46:42.784 +07:00 [INF] Request finished in 16.439ms 404 
+2021-06-04 14:46:42.784 +07:00 [INF] Request finished in 16.4389ms 404 
+2021-06-04 14:46:42.804 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 14:46:42.804 +07:00 [INF] Request finished in 0.6045ms 404 
+2021-06-04 14:46:42.806 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 14:46:42.807 +07:00 [INF] Request finished in 0.3435ms 404 
+2021-06-04 16:47:42.383 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 16:47:43.662 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 16:47:43.662 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 16:47:43.662 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 16:47:43.663 +07:00 [INF] Hosting environment: Development
+2021-06-04 16:47:43.663 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 16:47:44.908 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 16:47:44.996 +07:00 [INF] Request finished in 92.5223ms 200 text/html;charset=utf-8
+2021-06-04 16:47:45.022 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 16:47:45.022 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 16:47:45.022 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 16:47:45.077 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 16:47:45.079 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 16:47:45.079 +07:00 [INF] Request finished in 57.6464ms 200 text/css
+2021-06-04 16:47:45.079 +07:00 [INF] Request finished in 57.7174ms 200 application/javascript
+2021-06-04 16:47:45.096 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 16:47:45.102 +07:00 [INF] Request finished in 80.2994ms 200 application/javascript
+2021-06-04 16:47:45.275 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 16:47:45.380 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 16:47:45.380 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 16:47:45.391 +07:00 [INF] Request finished in 10.8257ms 404 
+2021-06-04 16:47:45.391 +07:00 [INF] Request finished in 10.7902ms 404 
+2021-06-04 16:47:45.406 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 16:47:45.407 +07:00 [INF] Request finished in 0.4411ms 404 
+2021-06-04 16:47:45.409 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 16:47:45.409 +07:00 [INF] Request finished in 0.3092ms 404 
+2021-06-04 16:47:45.413 +07:00 [INF] Request finished in 138.5594ms 200 application/json;charset=utf-8
+2021-06-04 16:47:50.861 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-04 16:47:50.865 +07:00 [INF] CORS policy execution successful.
+2021-06-04 16:47:50.869 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 16:47:50.916 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 16:47:52.269 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 16:47:53.177 +07:00 [INF] Executed DbCommand (100ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 16:47:53.452 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-04 16:47:53.496 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-04 16:47:53.524 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-04 16:47:53.532 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-04 16:47:53.885 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 16:47:53.898 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2977.0053ms
+2021-06-04 16:47:53.899 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 16:47:53.903 +07:00 [INF] Request finished in 3042.2025ms 200 application/json; charset=utf-8
+2021-06-04 17:19:04.592 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/register application/json 88
+2021-06-04 17:19:04.593 +07:00 [INF] CORS policy execution successful.
+2021-06-04 17:19:04.595 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2021-06-04 17:19:04.601 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 17:19:04.677 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 17:19:04.697 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 17:19:04.702 +07:00 [WRN] User validation failed: DuplicateUserName.
+2021-06-04 17:19:04.718 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+2021-06-04 17:19:04.722 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 17:19:04.724 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 122.9195ms
+2021-06-04 17:19:04.724 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2021-06-04 17:19:04.724 +07:00 [INF] Request finished in 132.8777ms 200 application/json; charset=utf-8
+2021-06-04 17:26:16.285 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 17:26:17.129 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 17:26:17.129 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 17:26:17.129 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 17:26:17.129 +07:00 [INF] Hosting environment: Development
+2021-06-04 17:26:17.129 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 17:26:18.630 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 17:26:18.738 +07:00 [INF] Request finished in 113.2512ms 200 text/html;charset=utf-8
+2021-06-04 17:26:18.762 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 17:26:18.762 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 17:26:18.762 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 17:26:18.789 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 17:26:18.789 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 17:26:18.789 +07:00 [INF] Request finished in 27.8784ms 200 application/javascript
+2021-06-04 17:26:18.789 +07:00 [INF] Request finished in 27.8772ms 200 text/css
+2021-06-04 17:26:18.826 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 17:26:18.829 +07:00 [INF] Request finished in 67.2044ms 200 application/javascript
+2021-06-04 17:26:19.011 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 17:26:19.124 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 17:26:19.124 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 17:26:19.134 +07:00 [INF] Request finished in 10.2113ms 404 
+2021-06-04 17:26:19.135 +07:00 [INF] Request finished in 10.6562ms 404 
+2021-06-04 17:26:19.151 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 17:26:19.152 +07:00 [INF] Request finished in 1.6175ms 404 
+2021-06-04 17:26:19.154 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 17:26:19.155 +07:00 [INF] Request finished in 0.3249ms 404 
+2021-06-04 17:26:19.176 +07:00 [INF] Request finished in 165.9318ms 200 application/json;charset=utf-8
+2021-06-04 17:28:21.988 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-04 17:28:21.999 +07:00 [INF] CORS policy execution successful.
+2021-06-04 17:28:22.004 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 17:28:22.052 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 17:28:22.997 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 17:28:23.667 +07:00 [INF] Executed DbCommand (57ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 17:28:23.911 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-04 17:28:23.946 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-04 17:28:23.966 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-04 17:28:23.975 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-04 17:28:24.150 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 17:28:24.168 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2111.3299ms
+2021-06-04 17:28:24.169 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 17:28:24.173 +07:00 [INF] Request finished in 2184.9807ms 200 application/json; charset=utf-8
+2021-06-04 17:38:17.404 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-04 17:38:17.405 +07:00 [INF] CORS policy execution successful.
+2021-06-04 17:38:17.406 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 17:38:17.407 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 17:38:17.450 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 17:38:17.469 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 17:38:17.481 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-04 17:38:17.484 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-04 17:38:17.487 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-04 17:38:17.489 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-04 17:38:17.490 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 17:38:17.491 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 84.1941ms
+2021-06-04 17:38:17.492 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 17:38:17.492 +07:00 [INF] Request finished in 88.719ms 200 application/json; charset=utf-8
+2021-06-04 18:44:03.523 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 18:44:04.381 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 18:44:04.381 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 18:44:04.381 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 18:44:04.381 +07:00 [INF] Hosting environment: Development
+2021-06-04 18:44:04.381 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 18:44:05.627 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 18:44:05.758 +07:00 [INF] Request finished in 135.8052ms 200 text/html;charset=utf-8
+2021-06-04 18:44:05.786 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 18:44:05.786 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 18:44:05.786 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 18:44:05.844 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 18:44:05.844 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 18:44:05.846 +07:00 [INF] Request finished in 60.3168ms 200 text/css
+2021-06-04 18:44:05.850 +07:00 [INF] Request finished in 63.9194ms 200 application/javascript
+2021-06-04 18:44:05.853 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 18:44:05.854 +07:00 [INF] Request finished in 67.7432ms 200 application/javascript
+2021-06-04 18:44:06.093 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 18:44:06.227 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 18:44:06.227 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 18:44:06.242 +07:00 [INF] Request finished in 15.2526ms 404 
+2021-06-04 18:44:06.242 +07:00 [INF] Request finished in 15.2524ms 404 
+2021-06-04 18:44:06.258 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 18:44:06.259 +07:00 [INF] Request finished in 0.5236ms 404 
+2021-06-04 18:44:06.260 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 18:44:06.261 +07:00 [INF] Request finished in 0.4235ms 404 
+2021-06-04 18:44:06.292 +07:00 [INF] Request finished in 198.8753ms 200 application/json;charset=utf-8
+2021-06-04 18:44:12.084 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-04 18:44:12.089 +07:00 [INF] CORS policy execution successful.
+2021-06-04 18:44:12.093 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 18:44:12.142 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 18:44:13.086 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 18:44:13.759 +07:00 [INF] Executed DbCommand (57ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 18:44:14.002 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-04 18:44:14.035 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-04 18:44:14.052 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-04 18:44:14.059 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-04 18:44:14.250 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 18:44:14.263 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2116.6702ms
+2021-06-04 18:44:14.264 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 18:44:14.268 +07:00 [INF] Request finished in 2184.1921ms 200 application/json; charset=utf-8
+2021-06-04 18:50:29.291 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-04 18:50:30.079 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-04 18:50:30.079 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-04 18:50:30.079 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-04 18:50:30.079 +07:00 [INF] Hosting environment: Development
+2021-06-04 18:50:30.080 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-04 18:50:31.526 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-04 18:50:31.615 +07:00 [INF] Request finished in 92.9379ms 200 text/html;charset=utf-8
+2021-06-04 18:50:31.647 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-04 18:50:31.647 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-04 18:50:31.647 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-04 18:50:31.678 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-04 18:50:31.684 +07:00 [INF] Request finished in 34.1082ms 200 text/css
+2021-06-04 18:50:31.706 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-04 18:50:31.716 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-04 18:50:31.716 +07:00 [INF] Request finished in 69.3617ms 200 application/javascript
+2021-06-04 18:50:31.716 +07:00 [INF] Request finished in 69.4428ms 200 application/javascript
+2021-06-04 18:50:31.900 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-04 18:50:31.998 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 18:50:31.998 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 18:50:32.008 +07:00 [INF] Request finished in 9.8389ms 404 
+2021-06-04 18:50:32.008 +07:00 [INF] Request finished in 9.8388ms 404 
+2021-06-04 18:50:32.022 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-04 18:50:32.022 +07:00 [INF] Request finished in 0.3916ms 404 
+2021-06-04 18:50:32.024 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-04 18:50:32.024 +07:00 [INF] Request finished in 0.4114ms 404 
+2021-06-04 18:50:32.042 +07:00 [INF] Request finished in 141.8783ms 200 application/json;charset=utf-8
+2021-06-04 18:50:43.078 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-04 18:50:43.082 +07:00 [INF] CORS policy execution successful.
+2021-06-04 18:50:43.086 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 18:50:43.133 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-04 18:50:44.036 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-04 18:50:44.690 +07:00 [INF] Executed DbCommand (54ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-04 18:50:44.916 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-04 18:50:44.946 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-04 18:50:44.962 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-04 18:50:44.970 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-04 18:50:45.141 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-04 18:50:45.154 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2015.4754ms
+2021-06-04 18:50:45.155 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-04 18:50:45.161 +07:00 [INF] Request finished in 2083.4811ms 200 application/json; charset=utf-8

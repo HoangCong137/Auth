@@ -1,0 +1,52 @@
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.csproj.CoreCompileInputs.cache
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.AssemblyInfoInputs.cache
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.AssemblyInfo.cs
+F:/cooftech/AuthServer/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.deps.json
+F:/cooftech/AuthServer/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.runtimeconfig.json
+F:/cooftech/AuthServer/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.runtimeconfig.dev.json
+F:/cooftech/AuthServer/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.dll
+F:/cooftech/AuthServer/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.pdb
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.dll
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.pdb
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.genruntimeconfig.cache
+F:/cooftech/AuthServer/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.csprojAssemblyReference.cache
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.deps.json
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.runtimeconfig.json
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.runtimeconfig.dev.json
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.dll
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.pdb
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.AssemblyInfoInputs.cache
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.AssemblyInfo.cs
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.csproj.CoreCompileInputs.cache
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.dll
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.pdb
+D:/project/aspnet/Winwin Korea/auth-server/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.genruntimeconfig.cache
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.deps.json
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.runtimeconfig.json
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.runtimeconfig.dev.json
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.dll
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/bin/Debug/netcoreapp3.1/AuthServer.Infrastructure.pdb
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.csproj.AssemblyReference.cache
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.AssemblyInfoInputs.cache
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.AssemblyInfo.cs
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.dll
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.pdb
+/Users/mini/Cooftech Project/authserver/AuthServer.Infrastructure/obj/Debug/netcoreapp3.1/AuthServer.Infrastructure.genruntimeconfig.cache
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Infrastructure.deps.json
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Infrastructure.runtimeconfig.json
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Infrastructure.runtimeconfig.dev.json
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Infrastructure.dll
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Infrastructure.pdb
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.csproj.AssemblyReference.cache
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.AssemblyInfoInputs.cache
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.AssemblyInfo.cs
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.dll
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.pdb
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.genruntimeconfig.cache
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Domain.dll
+D:\Backend\authserver-master\AuthServer.Infrastructure\bin\Debug\netcoreapp3.1\AuthServer.Domain.pdb
+D:\Backend\authserver-master\AuthServer.Infrastructure\obj\Debug\netcoreapp3.1\AuthServer.Infrastructure.csproj.CopyComplete

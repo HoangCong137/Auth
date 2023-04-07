@@ -1,0 +1,92 @@
+2021-07-07 17:22:22.230 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-07 17:22:23.826 +07:00 [INF] Now listening on: https://localhost:5001
+2021-07-07 17:22:23.826 +07:00 [INF] Now listening on: http://localhost:5000
+2021-07-07 17:22:23.827 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-07 17:22:23.827 +07:00 [INF] Hosting environment: Development
+2021-07-07 17:22:23.827 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-07-07 17:22:26.119 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-07-07 17:22:26.297 +07:00 [INF] Request finished in 181.9705ms 200 text/html;charset=utf-8
+2021-07-07 17:22:26.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-07-07 17:22:26.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-07-07 17:22:26.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-07-07 17:22:26.363 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-07 17:22:26.368 +07:00 [INF] Request finished in 32.3642ms 200 text/css
+2021-07-07 17:22:26.396 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-07 17:22:26.396 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-07 17:22:26.400 +07:00 [INF] Request finished in 64.501ms 200 application/javascript
+2021-07-07 17:22:26.401 +07:00 [INF] Request finished in 64.8957ms 200 application/javascript
+2021-07-07 17:22:26.587 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-07-07 17:22:26.621 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2021-07-07 17:22:26.621 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-07 17:22:26.622 +07:00 [INF] Request finished in 0.9522ms 200 image/png
+2021-07-07 17:22:26.688 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-07-07 17:22:26.703 +07:00 [INF] Request finished in 15.9118ms 404 
+2021-07-07 17:22:26.704 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-07-07 17:22:26.705 +07:00 [INF] Request finished in 0.3883ms 404 
+2021-07-07 17:22:26.711 +07:00 [INF] Request finished in 124.2693ms 200 application/json;charset=utf-8
+2021-07-07 17:22:26.720 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-07-07 17:22:26.720 +07:00 [INF] Request finished in 0.4589ms 404 
+2021-07-07 17:22:26.723 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-07-07 17:22:26.723 +07:00 [INF] Request finished in 0.8759ms 404 
+2021-07-07 17:22:42.019 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/loginEmail application/json 79
+2021-07-07 17:22:42.025 +07:00 [INF] CORS policy execution successful.
+2021-07-07 17:22:42.030 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-07-07 17:22:42.083 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewEmailModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-07-07 17:22:43.417 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-07-07 17:22:44.315 +07:00 [INF] Executed DbCommand (58ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-07-07 17:22:44.497 +07:00 [WRN] Invalid password for user.
+2021-07-07 17:22:44.499 +07:00 [WRN] User 6aa168f9-a1da-4b9a-b503-1d77b1a3dc7c failed to provide the correct password.
+2021-07-07 17:22:44.507 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-07-07 17:22:44.517 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2430.0221ms
+2021-07-07 17:22:44.517 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-07-07 17:22:44.521 +07:00 [INF] Request finished in 2502.1763ms 200 application/json; charset=utf-8
+2021-07-07 17:36:23.915 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/registerEmail application/json 112
+2021-07-07 17:36:23.916 +07:00 [INF] CORS policy execution successful.
+2021-07-07 17:36:23.918 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2021-07-07 17:36:23.923 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-07-07 17:36:24.000 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-07-07 17:36:24.068 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-07-07 17:36:24.246 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 50), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FullName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2021-07-07 17:36:24.303 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+2021-07-07 17:36:24.675 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-07-07 17:36:24.678 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 754.8046ms
+2021-07-07 17:36:24.678 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2021-07-07 17:36:24.679 +07:00 [INF] Request finished in 769.3342ms 200 application/json; charset=utf-8
+2021-07-07 17:37:56.065 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/loginEmail application/json 79
+2021-07-07 17:37:56.066 +07:00 [INF] CORS policy execution successful.
+2021-07-07 17:37:56.067 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-07-07 17:37:56.067 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewEmailModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-07-07 17:37:56.088 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-07-07 17:37:56.098 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-07-07 17:37:56.177 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-07-07 17:37:56.221 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-07-07 17:37:56.251 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-07-07 17:37:56.267 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-07-07 17:37:56.268 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-07-07 17:37:56.269 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 201.7013ms
+2021-07-07 17:37:56.269 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-07-07 17:37:56.270 +07:00 [INF] Request finished in 204.9774ms 200 application/json; charset=utf-8

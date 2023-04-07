@@ -1,0 +1,845 @@
+2023-04-07 08:33:07.065 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 08:33:08.987 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 08:33:08.988 +07:00 [INF] Hosting environment: Development
+2023-04-07 08:33:08.988 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-07 08:33:09.023 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 08:33:09.336 +07:00 [INF] Request finished in 316.1319ms 200 text/html;charset=utf-8
+2023-04-07 08:33:09.453 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 08:33:09.457 +07:00 [INF] Request finished in 4.2647ms 200 application/javascript; charset=utf-8
+2023-04-07 08:33:09.558 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 08:33:09.656 +07:00 [INF] Request finished in 98.8778ms 200 text/javascript; charset=UTF-8
+2023-04-07 08:33:09.965 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 08:33:10.076 +07:00 [INF] Request finished in 110.8699ms 200 application/json;charset=utf-8
+2023-04-07 11:13:24.120 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 11:13:26.331 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 11:13:26.332 +07:00 [INF] Hosting environment: Development
+2023-04-07 11:13:26.333 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-07 11:13:26.376 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:13:26.670 +07:00 [INF] Request finished in 295.9976ms 200 text/html;charset=utf-8
+2023-04-07 11:13:26.751 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:13:26.761 +07:00 [INF] Request finished in 10.7344ms 200 application/javascript; charset=utf-8
+2023-04-07 11:13:26.787 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:13:26.829 +07:00 [INF] Request finished in 41.5774ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:13:27.119 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:13:27.286 +07:00 [INF] Request finished in 168.4108ms 200 application/json;charset=utf-8
+2023-04-07 11:19:50.835 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:19:50.837 +07:00 [INF] Request finished in 5.2452ms 200 application/javascript; charset=utf-8
+2023-04-07 11:19:50.841 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:19:50.885 +07:00 [INF] Request finished in 43.7831ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:19:51.424 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:19:51.454 +07:00 [INF] Request finished in 30.7326ms 200 application/json;charset=utf-8
+2023-04-07 11:21:38.663 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 11:21:38.666 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:21:38.676 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:21:38.738 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:21:40.903 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 2160.4846ms
+2023-04-07 11:21:40.907 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:21:40.910 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:bc967dee-97a5-47ee-9329-82e8fa8e6b44
+Error Number:18456,State:1,Class:14
+2023-04-07 11:21:41.002 +07:00 [INF] Request finished in 2341.107ms 500 text/plain
+2023-04-07 11:21:56.725 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 11:21:56.726 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:21:56.728 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:21:56.728 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:21:56.752 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 23.789ms
+2023-04-07 11:21:56.753 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:21:56.754 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:b08a0d30-8cbe-4576-b0ba-55cad7124742
+Error Number:18456,State:1,Class:14
+2023-04-07 11:21:56.760 +07:00 [INF] Request finished in 35.2822ms 500 text/plain
+2023-04-07 11:22:10.628 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:22:10.641 +07:00 [INF] Request finished in 12.9069ms 200 text/html;charset=utf-8
+2023-04-07 11:22:10.724 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:22:10.724 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:22:10.725 +07:00 [INF] Request finished in 1.3635ms 200 application/javascript; charset=utf-8
+2023-04-07 11:22:10.743 +07:00 [INF] Request finished in 19.4113ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:22:10.987 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:22:11.108 +07:00 [INF] Request finished in 122.0202ms 200 application/json;charset=utf-8
+2023-04-07 11:23:04.276 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:23:04.276 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:23:04.282 +07:00 [INF] Request finished in 6.0552ms 404 
+2023-04-07 11:23:04.282 +07:00 [INF] Request finished in 5.9604ms 404 
+2023-04-07 11:23:04.298 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:23:04.299 +07:00 [INF] Request finished in 1.2102ms 404 
+2023-04-07 11:23:34.930 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:23:34.932 +07:00 [INF] Request finished in 1.5898ms 404 
+2023-04-07 11:23:34.964 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:23:34.964 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:23:34.966 +07:00 [INF] Request finished in 1.4446ms 404 
+2023-04-07 11:23:34.966 +07:00 [INF] Request finished in 1.4447ms 404 
+2023-04-07 11:23:42.763 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 85
+2023-04-07 11:23:42.763 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:23:42.764 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:23:42.764 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:23:42.808 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 43.4371ms
+2023-04-07 11:23:42.808 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:23:42.809 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:8b4ad5a4-4787-460d-ac4c-31e36c699c5e
+Error Number:18456,State:1,Class:14
+2023-04-07 11:23:42.816 +07:00 [INF] Request finished in 53.0105ms 500 text/plain
+2023-04-07 11:23:54.231 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 85
+2023-04-07 11:23:54.232 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:23:54.232 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:23:54.233 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:23:54.243 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 9.8306ms
+2023-04-07 11:23:54.243 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:23:54.244 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:8b4ad5a4-4787-460d-ac4c-31e36c699c5e
+Error Number:18456,State:1,Class:14
+2023-04-07 11:23:54.250 +07:00 [INF] Request finished in 18.7818ms 500 text/plain
+2023-04-07 11:25:18.049 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:25:18.172 +07:00 [INF] Request finished in 122.4933ms 200 text/html;charset=utf-8
+2023-04-07 11:25:18.235 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:25:18.247 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:25:18.248 +07:00 [INF] Request finished in 0.6664ms 200 application/javascript; charset=utf-8
+2023-04-07 11:25:18.262 +07:00 [INF] Request finished in 26.9647ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:25:18.404 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:25:18.405 +07:00 [INF] Request finished in 1.6382ms 404 
+2023-04-07 11:25:18.557 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:25:18.559 +07:00 [INF] Request finished in 1.3774ms 404 
+2023-04-07 11:25:18.594 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:25:18.595 +07:00 [INF] Request finished in 0.8366ms 404 
+2023-04-07 11:25:18.864 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:25:18.902 +07:00 [INF] Request finished in 38.4504ms 200 application/json;charset=utf-8
+2023-04-07 11:25:34.619 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:25:34.631 +07:00 [INF] Request finished in 12.0301ms 200 text/html;charset=utf-8
+2023-04-07 11:25:34.718 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:25:34.725 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:25:34.725 +07:00 [INF] Request finished in 0.4603ms 200 application/javascript; charset=utf-8
+2023-04-07 11:25:34.729 +07:00 [INF] Request finished in 10.982ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:25:34.850 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:25:34.852 +07:00 [INF] Request finished in 1.2098ms 404 
+2023-04-07 11:25:35.037 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:25:35.038 +07:00 [INF] Request finished in 1.4312ms 404 
+2023-04-07 11:25:35.078 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:25:35.079 +07:00 [INF] Request finished in 1.2739ms 404 
+2023-04-07 11:25:35.261 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:25:35.285 +07:00 [INF] Request finished in 24.249ms 200 application/json;charset=utf-8
+2023-04-07 11:26:18.990 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:26:19.005 +07:00 [INF] Request finished in 14.5769ms 200 text/html;charset=utf-8
+2023-04-07 11:26:19.076 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:26:19.076 +07:00 [INF] Request finished in 0.6143ms 200 application/javascript; charset=utf-8
+2023-04-07 11:26:19.077 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:26:19.090 +07:00 [INF] Request finished in 13.6692ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:26:19.293 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:26:19.323 +07:00 [INF] Request finished in 30.2083ms 200 application/json;charset=utf-8
+2023-04-07 11:46:45.257 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:46:45.364 +07:00 [INF] Request finished in 108.767ms 200 text/html;charset=utf-8
+2023-04-07 11:46:45.455 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:46:45.466 +07:00 [INF] Request finished in 6.661ms 200 application/javascript; charset=utf-8
+2023-04-07 11:46:45.621 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:46:45.679 +07:00 [INF] Request finished in 58.004ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:46:46.255 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:46:46.358 +07:00 [INF] Request finished in 103.4511ms 200 application/json;charset=utf-8
+2023-04-07 11:46:59.646 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:46:59.646 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:46:59.655 +07:00 [INF] Request finished in 9.535ms 404 
+2023-04-07 11:46:59.656 +07:00 [INF] Request finished in 9.1324ms 404 
+2023-04-07 11:46:59.680 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:46:59.681 +07:00 [INF] Request finished in 0.8782ms 404 
+2023-04-07 11:49:06.740 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 11:49:06.742 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:49:06.757 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:49:06.781 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:49:06.939 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 157.3257ms
+2023-04-07 11:49:06.941 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:49:06.942 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:0843c19b-e059-4f20-b37a-18ca1982cd8e
+Error Number:18456,State:1,Class:14
+2023-04-07 11:49:06.966 +07:00 [INF] Request finished in 229.7839ms 500 text/plain
+2023-04-07 11:49:34.932 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 11:49:34.933 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:49:34.934 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:49:34.934 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:49:34.975 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 40.9542ms
+2023-04-07 11:49:34.976 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:49:34.976 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:2b021e9d-b5d6-4f5e-a153-ebc97018f9b2
+Error Number:18456,State:1,Class:14
+2023-04-07 11:49:34.986 +07:00 [INF] Request finished in 54.056ms 500 text/plain
+2023-04-07 11:51:09.864 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:51:09.894 +07:00 [INF] Request finished in 30.3343ms 200 text/html;charset=utf-8
+2023-04-07 11:51:09.986 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:51:09.986 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:51:09.987 +07:00 [INF] Request finished in 0.8826ms 200 application/javascript; charset=utf-8
+2023-04-07 11:51:10.032 +07:00 [INF] Request finished in 46.1113ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:51:10.136 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:51:10.137 +07:00 [INF] Request finished in 0.5486ms 404 
+2023-04-07 11:51:10.304 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:51:10.305 +07:00 [INF] Request finished in 0.9991ms 404 
+2023-04-07 11:51:10.368 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:51:10.369 +07:00 [INF] Request finished in 0.902ms 404 
+2023-04-07 11:51:10.605 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:51:10.649 +07:00 [INF] Request finished in 44.6507ms 200 application/json;charset=utf-8
+2023-04-07 11:51:23.133 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 11:51:23.134 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:51:23.134 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:51:23.135 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:51:23.180 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 45.2849ms
+2023-04-07 11:51:23.180 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:51:23.180 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:0afa5381-8ddb-4e0c-9118-32ee425f27d8
+Error Number:18456,State:1,Class:14
+2023-04-07 11:51:23.183 +07:00 [INF] Request finished in 50.0566ms 500 text/plain
+2023-04-07 11:51:33.274 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/loginEmail application/json 79
+2023-04-07 11:51:33.274 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:51:33.274 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2023-04-07 11:51:33.328 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewEmailModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:51:34.414 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-07 11:51:34.859 +07:00 [ERR] An error occurred using the connection to database 'Common' on server '103.81.87.134'.
+2023-04-07 11:51:35.835 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AuthServer.Infrastructure.Data.Identity.AppDBContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3765fa9c-e7f7-4d40-b5ec-cca733108b7e
+Error Number:18456,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3765fa9c-e7f7-4d40-b5ec-cca733108b7e
+Error Number:18456,State:1,Class:14
+2023-04-07 11:51:35.842 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 2514.501ms
+2023-04-07 11:51:35.843 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2023-04-07 11:51:35.843 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at AuthServer.Infrastructure.Service.Auth.AuthService.AuthenticateEmailAsync(LoginViewEmailModel request) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 125
+   at AuthServer.Controllers.AuthController.Login(LoginViewEmailModel model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 39
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3765fa9c-e7f7-4d40-b5ec-cca733108b7e
+Error Number:18456,State:1,Class:14
+2023-04-07 11:51:36.198 +07:00 [INF] Request finished in 2923.8946ms 500 text/plain
+2023-04-07 11:52:32.831 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:52:32.832 +07:00 [INF] Request finished in 0.5939ms 200 application/javascript; charset=utf-8
+2023-04-07 11:52:32.861 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:52:32.870 +07:00 [INF] Request finished in 8.7167ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:52:33.102 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:52:33.119 +07:00 [INF] Request finished in 18.0784ms 200 application/json;charset=utf-8
+2023-04-07 11:54:42.139 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 11:54:42.146 +07:00 [INF] Request finished in 6.7004ms 200 text/html;charset=utf-8
+2023-04-07 11:54:42.215 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 11:54:42.215 +07:00 [INF] Request finished in 0.4782ms 200 application/javascript; charset=utf-8
+2023-04-07 11:54:42.261 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 11:54:42.267 +07:00 [INF] Request finished in 6.5548ms 200 text/javascript; charset=UTF-8
+2023-04-07 11:54:42.439 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 11:54:42.440 +07:00 [INF] Request finished in 1.4011ms 404 
+2023-04-07 11:54:42.586 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 11:54:42.587 +07:00 [INF] Request finished in 1.0928ms 404 
+2023-04-07 11:54:42.626 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 11:54:42.627 +07:00 [INF] Request finished in 0.6095ms 404 
+2023-04-07 11:54:42.787 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 11:54:42.814 +07:00 [INF] Request finished in 27.2924ms 200 application/json;charset=utf-8
+2023-04-07 11:54:56.007 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 11:54:56.007 +07:00 [INF] CORS policy execution successful.
+2023-04-07 11:54:56.008 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:54:56.009 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 11:54:56.065 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 55.3847ms
+2023-04-07 11:54:56.065 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 11:54:56.065 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:a616272b-ec06-44b4-a569-bacbbb84e051
+Error Number:18456,State:1,Class:14
+2023-04-07 11:54:56.072 +07:00 [INF] Request finished in 65.1933ms 500 text/plain
+2023-04-07 12:00:15.357 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 12:00:15.358 +07:00 [INF] CORS policy execution successful.
+2023-04-07 12:00:15.358 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 12:00:15.359 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 12:00:23.395 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 12:00:23.402 +07:00 [INF] Request finished in 7.3094ms 200 text/html;charset=utf-8
+2023-04-07 12:00:23.509 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 12:00:23.509 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 12:00:23.510 +07:00 [INF] Request finished in 1.1629ms 200 application/javascript; charset=utf-8
+2023-04-07 12:00:23.533 +07:00 [INF] Request finished in 23.6804ms 200 text/javascript; charset=UTF-8
+2023-04-07 12:00:23.632 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 8272.7648ms
+2023-04-07 12:00:23.632 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 12:00:23.632 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:7a80d229-0b68-4bf4-9741-b815ef29003b
+Error Number:18456,State:1,Class:14
+2023-04-07 12:00:23.635 +07:00 [INF] Request finished in 8277.6566ms 500 text/plain
+2023-04-07 12:00:23.687 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 12:00:23.688 +07:00 [INF] Request finished in 0.4893ms 404 
+2023-04-07 12:00:23.822 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 12:00:23.822 +07:00 [INF] Request finished in 0.4133ms 404 
+2023-04-07 12:00:23.868 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 12:00:23.869 +07:00 [INF] Request finished in 0.4469ms 404 
+2023-04-07 12:00:24.214 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 12:00:24.250 +07:00 [INF] Request finished in 36.1519ms 200 application/json;charset=utf-8
+2023-04-07 12:00:32.677 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 80
+2023-04-07 12:00:32.677 +07:00 [INF] CORS policy execution successful.
+2023-04-07 12:00:32.677 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 12:00:32.678 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 12:00:35.970 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 3291.9532ms
+2023-04-07 12:00:35.970 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-07 12:00:35.970 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:09dd1216-8281-4d25-a380-4b51f9488ea0
+Error Number:18456,State:1,Class:14
+2023-04-07 12:00:35.972 +07:00 [INF] Request finished in 3295.4603ms 500 text/plain
+2023-04-07 13:01:58.663 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 13:01:58.763 +07:00 [INF] Request finished in 111.3367ms 200 text/html;charset=utf-8
+2023-04-07 13:01:58.850 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 13:01:58.853 +07:00 [INF] Request finished in 2.7196ms 200 application/javascript; charset=utf-8
+2023-04-07 13:01:58.948 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 13:01:58.989 +07:00 [INF] Request finished in 39.7273ms 200 text/javascript; charset=UTF-8
+2023-04-07 13:01:59.164 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 13:01:59.169 +07:00 [INF] Request finished in 8.2392ms 404 
+2023-04-07 13:01:59.364 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 13:01:59.365 +07:00 [INF] Request finished in 1.234ms 404 
+2023-04-07 13:01:59.415 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 13:01:59.415 +07:00 [INF] Request finished in 0.4507ms 404 
+2023-04-07 13:01:59.708 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 13:01:59.847 +07:00 [INF] Request finished in 139.2368ms 200 application/json;charset=utf-8
+2023-04-07 13:14:26.215 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 13:14:26.266 +07:00 [INF] Request finished in 52.8587ms 200 text/html;charset=utf-8
+2023-04-07 13:14:26.330 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 13:14:26.333 +07:00 [INF] Request finished in 3.1133ms 200 application/javascript; charset=utf-8
+2023-04-07 13:14:26.394 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 13:14:26.423 +07:00 [INF] Request finished in 28.931ms 200 text/javascript; charset=UTF-8
+2023-04-07 13:14:26.664 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 13:14:26.705 +07:00 [INF] Request finished in 41.2972ms 200 application/json;charset=utf-8
+2023-04-07 13:14:38.929 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 13:14:38.929 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 13:14:38.930 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 13:14:38.930 +07:00 [INF] Request finished in 0.9057ms 404 
+2023-04-07 13:14:38.930 +07:00 [INF] Request finished in 0.3055ms 404 
+2023-04-07 13:14:38.931 +07:00 [INF] Request finished in 2.1665ms 404 
+2023-04-07 13:14:49.558 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/otp/send-otp application/json 23
+2023-04-07 13:14:49.563 +07:00 [INF] CORS policy execution successful.
+2023-04-07 13:14:49.577 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.OTPController.post (AuthServer)'
+2023-04-07 13:14:49.664 +07:00 [INF] Route matched with {action = "post", controller = "OTP"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] post(AuthServer.Infrastructure.ViewModel.OtpCodeViewModel) on controller AuthServer.Controllers.OTPController (AuthServer).
+2023-04-07 13:14:50.580 +07:00 [INF] Executed action AuthServer.Controllers.OTPController.post (AuthServer) in 915.817ms
+2023-04-07 13:14:50.582 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.OTPController.post (AuthServer)'
+2023-04-07 13:14:50.584 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.OTPService.SendOtp(String email, String maLanguage) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\OTP\OTPService.cs:line 96
+   at AuthServer.Controllers.OTPController.post(OtpCodeViewModel model) in D:\Backend\authserver-master\AuthServer\Controllers\OTPController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:b616b68f-04d5-480b-9fa3-8e93226b2844
+Error Number:18456,State:1,Class:14
+2023-04-07 13:14:50.604 +07:00 [INF] Request finished in 1046.7745ms 500 text/plain
+2023-04-07 13:15:12.152 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 13:15:12.209 +07:00 [INF] Request finished in 57.197ms 200 text/html;charset=utf-8
+2023-04-07 13:15:12.319 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 13:15:12.320 +07:00 [INF] Request finished in 0.8235ms 200 application/javascript; charset=utf-8
+2023-04-07 13:15:12.360 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 13:15:12.372 +07:00 [INF] Request finished in 12.4492ms 200 text/javascript; charset=UTF-8
+2023-04-07 13:15:12.612 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 13:15:12.692 +07:00 [INF] Request finished in 82.8967ms 200 application/json;charset=utf-8
+2023-04-07 13:15:33.065 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 13:15:33.070 +07:00 [INF] Request finished in 4.7043ms 200 text/html;charset=utf-8
+2023-04-07 13:15:33.112 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 13:15:33.112 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 13:15:33.113 +07:00 [INF] Request finished in 0.6922ms 200 application/javascript; charset=utf-8
+2023-04-07 13:15:33.126 +07:00 [INF] Request finished in 13.2928ms 200 text/javascript; charset=UTF-8
+2023-04-07 13:15:33.184 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 13:15:33.187 +07:00 [INF] Request finished in 2.8732ms 404 
+2023-04-07 13:15:33.280 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 13:15:33.281 +07:00 [INF] Request finished in 0.4665ms 404 
+2023-04-07 13:15:33.303 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 13:15:33.304 +07:00 [INF] Request finished in 0.7199ms 404 
+2023-04-07 13:15:33.427 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 13:15:33.440 +07:00 [INF] Request finished in 13.4492ms 200 application/json;charset=utf-8
+2023-04-07 14:14:25.336 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-07 14:14:25.466 +07:00 [INF] Request finished in 138.8694ms 200 text/html;charset=utf-8
+2023-04-07 14:14:25.527 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 14:14:25.535 +07:00 [INF] Request finished in 8.4726ms 200 application/javascript; charset=utf-8
+2023-04-07 14:14:25.552 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 14:14:25.583 +07:00 [INF] Request finished in 30.5537ms 200 text/javascript; charset=UTF-8
+2023-04-07 14:14:25.614 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css.map  
+2023-04-07 14:14:25.621 +07:00 [INF] Request finished in 6.901ms 404 
+2023-04-07 14:14:25.675 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js.map  
+2023-04-07 14:14:25.676 +07:00 [INF] Request finished in 1.2545ms 404 
+2023-04-07 14:14:25.715 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js.map  
+2023-04-07 14:14:25.716 +07:00 [INF] Request finished in 0.8016ms 404 
+2023-04-07 14:14:25.848 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 14:14:25.939 +07:00 [INF] Request finished in 90.7616ms 200 application/json;charset=utf-8
+2023-04-07 14:15:18.521 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/updatePassword application/json 70
+2023-04-07 14:15:18.529 +07:00 [INF] CORS policy execution successful.
+2023-04-07 14:15:18.548 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.UpdateForgetPassword (AuthServer)'
+2023-04-07 14:15:18.674 +07:00 [INF] Route matched with {action = "UpdateForgetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] UpdateForgetPassword(AuthServer.Infrastructure.ViewModel.UpdateForgetPasswordViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 14:15:18.929 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.UpdateForgetPassword (AuthServer) in 253.8516ms
+2023-04-07 14:15:18.932 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.UpdateForgetPassword (AuthServer)'
+2023-04-07 14:15:18.934 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.UpdateForgetPassword(UpdateForgetPasswordViewModel model) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 280
+   at AuthServer.Controllers.AuthController.UpdateForgetPassword(UpdateForgetPasswordViewModel model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:a674b69c-5aa5-4f0d-9de0-dcb9d76c7ea9
+Error Number:18456,State:1,Class:14
+2023-04-07 14:15:18.974 +07:00 [INF] Request finished in 454.5736ms 500 text/plain
+2023-04-07 14:15:37.538 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/loginFacebook application/json 71
+2023-04-07 14:15:37.538 +07:00 [INF] CORS policy execution successful.
+2023-04-07 14:15:37.539 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.LoginByFaceBook (AuthServer)'
+2023-04-07 14:15:37.547 +07:00 [INF] Route matched with {action = "LoginByFaceBook", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] LoginByFaceBook(AuthServer.Infrastructure.ViewModel.LoginViewFacebookEmailModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-07 14:15:37.656 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-04-07 14:15:37.832 +07:00 [ERR] An error occurred using the connection to database 'Common' on server '103.81.87.134'.
+2023-04-07 14:15:37.846 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AuthServer.Infrastructure.Data.Identity.AppDBContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2cab8c84-b7ae-46fd-b003-3fc16053f818
+Error Number:18456,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2cab8c84-b7ae-46fd-b003-3fc16053f818
+Error Number:18456,State:1,Class:14
+2023-04-07 14:15:37.850 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.LoginByFaceBook (AuthServer) in 302.2704ms
+2023-04-07 14:15:37.850 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.LoginByFaceBook (AuthServer)'
+2023-04-07 14:15:37.851 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at AuthServer.Infrastructure.Repository.Repository`1.FistOrDefaultAsync(Expression`1 expression) in D:\Backend\authserver-master\AuthServer.Infrastructure\Repository\Repository.cs:line 136
+   at AuthServer.Infrastructure.Service.Auth.AuthService.AuthenticateFacebookEmailAsync(LoginViewFacebookEmailModel request) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 211
+   at AuthServer.Controllers.AuthController.LoginByFaceBook(LoginViewFacebookEmailModel model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:2cab8c84-b7ae-46fd-b003-3fc16053f818
+Error Number:18456,State:1,Class:14
+2023-04-07 14:15:37.873 +07:00 [INF] Request finished in 335.0751ms 500 text/plain
+2023-04-07 15:19:52.977 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 15:19:52.977 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 15:19:52.995 +07:00 [INF] Request finished in 23.4778ms 200 application/javascript; charset=utf-8
+2023-04-07 15:19:53.042 +07:00 [INF] Request finished in 70.3264ms 200 text/javascript; charset=UTF-8
+2023-04-07 15:19:53.196 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 15:19:53.245 +07:00 [INF] Request finished in 49.2556ms 200 application/json;charset=utf-8
+2023-04-07 15:34:05.275 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-07 15:34:05.340 +07:00 [INF] Request finished in 81.1459ms 200 application/javascript; charset=utf-8
+2023-04-07 15:34:05.807 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-07 15:34:05.897 +07:00 [INF] Request finished in 89.6769ms 200 text/javascript; charset=UTF-8
+2023-04-07 15:34:06.274 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-07 15:34:07.218 +07:00 [INF] Request finished in 943.4263ms 200 application/json;charset=utf-8

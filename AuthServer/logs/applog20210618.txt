@@ -1,0 +1,30 @@
+2021-06-18 17:44:06.819 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-18 17:44:08.497 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-18 17:44:08.497 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-18 17:44:08.498 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-18 17:44:08.498 +07:00 [INF] Hosting environment: Development
+2021-06-18 17:44:08.498 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-18 17:44:10.806 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-18 17:44:10.952 +07:00 [INF] Request finished in 150.7111ms 200 text/html;charset=utf-8
+2021-06-18 17:44:10.978 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-18 17:44:10.978 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-18 17:44:10.978 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-18 17:44:11.027 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-18 17:44:11.027 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-18 17:44:11.028 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-18 17:44:11.031 +07:00 [INF] Request finished in 53.0072ms 200 text/css
+2021-06-18 17:44:11.031 +07:00 [INF] Request finished in 53.0204ms 200 application/javascript
+2021-06-18 17:44:11.031 +07:00 [INF] Request finished in 53.0211ms 200 application/javascript
+2021-06-18 17:44:11.316 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-18 17:44:11.355 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2021-06-18 17:44:11.357 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-06-18 17:44:11.357 +07:00 [INF] Request finished in 3.0376ms 200 image/png
+2021-06-18 17:44:11.441 +07:00 [INF] Request finished in 125.3852ms 200 application/json;charset=utf-8
+2021-06-18 17:44:11.538 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-18 17:44:11.538 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-18 17:44:11.552 +07:00 [INF] Request finished in 13.3474ms 404 
+2021-06-18 17:44:11.552 +07:00 [INF] Request finished in 13.3507ms 404 
+2021-06-18 17:44:11.570 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-18 17:44:11.571 +07:00 [INF] Request finished in 0.5895ms 404 
+2021-06-18 17:44:11.573 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-18 17:44:11.573 +07:00 [INF] Request finished in 0.3759ms 404 

@@ -1,0 +1,24 @@
+F:\cooftech\AuthServer\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.deps.json
+F:\cooftech\AuthServer\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.runtimeconfig.json
+F:\cooftech\AuthServer\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.runtimeconfig.dev.json
+F:\cooftech\AuthServer\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.dll
+F:\cooftech\AuthServer\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.pdb
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.csprojAssemblyReference.cache
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.csproj.CoreCompileInputs.cache
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.AssemblyInfoInputs.cache
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.AssemblyInfo.cs
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.dll
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.pdb
+F:\cooftech\AuthServer\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.genruntimeconfig.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.deps.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.runtimeconfig.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.runtimeconfig.dev.json
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\bin\Release\netcoreapp3.1\AuthServer.Infrastructure.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.csprojAssemblyReference.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.AssemblyInfoInputs.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.AssemblyInfo.cs
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.csproj.CoreCompileInputs.cache
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.dll
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.pdb
+D:\project\aspnet\Winwin Korea\auth-server\AuthServer.Infrastructure\obj\Release\netcoreapp3.1\AuthServer.Infrastructure.genruntimeconfig.cache

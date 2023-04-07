@@ -1,0 +1,27 @@
+2021-06-22 10:58:03.492 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-22 10:58:05.256 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-22 10:58:05.257 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-22 10:58:05.257 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 10:58:05.257 +07:00 [INF] Hosting environment: Development
+2021-06-22 10:58:05.257 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-22 10:58:06.910 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-22 10:58:07.125 +07:00 [INF] Request finished in 219.3531ms 200 text/html;charset=utf-8
+2021-06-22 10:58:07.185 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-22 10:58:07.186 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-22 10:58:07.192 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-22 10:58:07.229 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-22 10:58:07.233 +07:00 [INF] Request finished in 47.5939ms 200 text/css
+2021-06-22 10:58:07.255 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-22 10:58:07.255 +07:00 [INF] Request finished in 69.6408ms 200 application/javascript
+2021-06-22 10:58:07.276 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-22 10:58:07.278 +07:00 [INF] Request finished in 88.7135ms 200 application/javascript
+2021-06-22 10:58:07.463 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-22 10:58:07.575 +07:00 [INF] Request finished in 112.352ms 200 application/json;charset=utf-8
+2021-06-22 10:58:07.636 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-22 10:58:07.636 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-22 10:58:07.659 +07:00 [INF] Request finished in 22.4805ms 404 
+2021-06-22 10:58:07.659 +07:00 [INF] Request finished in 22.4805ms 404 
+2021-06-22 10:58:07.675 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-22 10:58:07.675 +07:00 [INF] Request finished in 0.3854ms 404 
+2021-06-22 10:58:07.677 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-22 10:58:07.677 +07:00 [INF] Request finished in 0.309ms 404 

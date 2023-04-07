@@ -1,0 +1,144 @@
+2021-06-05 09:12:09.800 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-05 09:12:11.490 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-05 09:12:11.490 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-05 09:12:11.490 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-05 09:12:11.490 +07:00 [INF] Hosting environment: Development
+2021-06-05 09:12:11.490 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-05 09:12:13.300 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-05 09:12:13.404 +07:00 [INF] Request finished in 107.7237ms 200 text/html;charset=utf-8
+2021-06-05 09:12:13.437 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-05 09:12:13.437 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-05 09:12:13.437 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-05 09:12:13.494 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-05 09:12:13.501 +07:00 [INF] Request finished in 62.8501ms 200 text/css
+2021-06-05 09:12:13.532 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-05 09:12:13.541 +07:00 [INF] Request finished in 104.7769ms 200 application/javascript
+2021-06-05 09:12:13.548 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-05 09:12:13.548 +07:00 [INF] Request finished in 111.4008ms 200 application/javascript
+2021-06-05 09:12:13.740 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-05 09:12:13.821 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 09:12:13.821 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 09:12:13.831 +07:00 [INF] Request finished in 10.2495ms 404 
+2021-06-05 09:12:13.831 +07:00 [INF] Request finished in 10.2494ms 404 
+2021-06-05 09:12:13.845 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 09:12:13.845 +07:00 [INF] Request finished in 0.4355ms 404 
+2021-06-05 09:12:13.847 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 09:12:13.848 +07:00 [INF] Request finished in 0.4364ms 404 
+2021-06-05 09:12:13.868 +07:00 [INF] Request finished in 128.4938ms 200 application/json;charset=utf-8
+2021-06-05 09:12:52.963 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login application/json 79
+2021-06-05 09:12:52.968 +07:00 [INF] CORS policy execution successful.
+2021-06-05 09:12:52.972 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-05 09:12:53.028 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Login(AuthServer.Infrastructure.ViewModel.LoginViewModel) on controller AuthServer.Controllers.AuthController (AuthServer).
+2021-06-05 09:12:55.012 +07:00 [INF] Entity Framework Core 5.0.6 initialized 'AppDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-05 09:12:56.058 +07:00 [INF] Executed DbCommand (61ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2021-06-05 09:12:56.420 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-06-05 09:12:56.455 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[RoleId] = [r].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-06-05 09:12:56.474 +07:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-06-05 09:12:56.482 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__request_Email_0
+2021-06-05 09:12:56.918 +07:00 [INF] Executing ObjectResult, writing value of type 'AuthServer.Infrastructure.ServiceModel.ServiceResponse'.
+2021-06-05 09:12:56.930 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Login (AuthServer) in 3897.9867ms
+2021-06-05 09:12:56.931 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Login (AuthServer)'
+2021-06-05 09:12:56.935 +07:00 [INF] Request finished in 3972.0268ms 200 application/json; charset=utf-8
+2021-06-05 10:47:05.292 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-05 10:47:05.975 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-05 10:47:05.975 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-05 10:47:05.975 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-05 10:47:05.975 +07:00 [INF] Hosting environment: Development
+2021-06-05 10:47:05.975 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-05 10:47:07.521 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-05 10:47:07.619 +07:00 [INF] Request finished in 102.5995ms 200 text/html;charset=utf-8
+2021-06-05 10:47:07.642 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-05 10:47:07.642 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-05 10:47:07.642 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-05 10:47:07.675 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-05 10:47:07.675 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-05 10:47:07.675 +07:00 [INF] Request finished in 33.7157ms 200 application/javascript
+2021-06-05 10:47:07.675 +07:00 [INF] Request finished in 33.5816ms 200 text/css
+2021-06-05 10:47:07.692 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-05 10:47:07.697 +07:00 [INF] Request finished in 54.9011ms 200 application/javascript
+2021-06-05 10:47:07.871 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-05 10:47:07.957 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 10:47:07.957 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 10:47:07.967 +07:00 [INF] Request finished in 9.8901ms 404 
+2021-06-05 10:47:07.967 +07:00 [INF] Request finished in 9.8901ms 404 
+2021-06-05 10:47:07.982 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 10:47:07.982 +07:00 [INF] Request finished in 0.3719ms 404 
+2021-06-05 10:47:07.984 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 10:47:07.984 +07:00 [INF] Request finished in 0.2821ms 404 
+2021-06-05 10:47:07.998 +07:00 [INF] Request finished in 127.6155ms 200 application/json;charset=utf-8
+2021-06-05 10:47:15.712 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 10:47:15.714 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 10:47:15.717 +07:00 [INF] Request finished in 3.633ms 404 
+2021-06-05 10:47:15.717 +07:00 [INF] Request finished in 5.094ms 404 
+2021-06-05 10:47:15.718 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css.map  
+2021-06-05 10:47:15.718 +07:00 [INF] Request finished in 0.8802ms 404 
+2021-06-05 10:47:27.137 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-05 10:47:27.143 +07:00 [INF] Request finished in 5.7572ms 200 text/html;charset=utf-8
+2021-06-05 10:47:27.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-05 10:47:27.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-05 10:47:27.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-05 10:47:27.174 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-05 10:47:27.177 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-05 10:47:27.178 +07:00 [INF] Request finished in 13.9328ms 200 text/css
+2021-06-05 10:47:27.196 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-05 10:47:27.197 +07:00 [INF] Request finished in 32.8124ms 200 application/javascript
+2021-06-05 10:47:27.202 +07:00 [INF] Request finished in 14.8155ms 200 application/javascript
+2021-06-05 10:47:27.263 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css.map  
+2021-06-05 10:47:27.264 +07:00 [INF] Request finished in 0.4485ms 404 
+2021-06-05 10:47:27.429 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-05 10:47:27.437 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 10:47:27.437 +07:00 [INF] Request finished in 8.8462ms 200 application/json;charset=utf-8
+2021-06-05 10:47:27.438 +07:00 [INF] Request finished in 0.6666ms 404 
+2021-06-05 10:47:27.439 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 10:47:27.440 +07:00 [INF] Request finished in 0.8083ms 404 
+2021-06-05 10:47:27.454 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 10:47:27.454 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 10:47:27.455 +07:00 [INF] Request finished in 0.5882ms 404 
+2021-06-05 10:47:27.455 +07:00 [INF] Request finished in 0.5881ms 404 
+2021-06-05 10:47:27.462 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 10:47:27.462 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 10:47:27.462 +07:00 [INF] Request finished in 0.3195ms 404 
+2021-06-05 10:47:27.463 +07:00 [INF] Request finished in 0.1799ms 404 
+2021-06-05 10:47:27.490 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2021-06-05 10:47:27.492 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-06-05 10:47:27.492 +07:00 [INF] Request finished in 2.0726ms 200 image/png
+2021-06-05 13:12:11.891 +07:00 [INF] User profile is available. Using 'C:\Users\Dell Gaming 7557\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-05 13:12:12.587 +07:00 [INF] Now listening on: https://localhost:5001
+2021-06-05 13:12:12.587 +07:00 [INF] Now listening on: http://localhost:5000
+2021-06-05 13:12:12.587 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-05 13:12:12.587 +07:00 [INF] Hosting environment: Development
+2021-06-05 13:12:12.587 +07:00 [INF] Content root path: F:\cooftech\AuthServer\AuthServer
+2021-06-05 13:12:14.334 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-06-05 13:12:14.412 +07:00 [INF] Request finished in 80.0935ms 200 text/html;charset=utf-8
+2021-06-05 13:12:14.433 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-06-05 13:12:14.434 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-06-05 13:12:14.433 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-06-05 13:12:14.466 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-05 13:12:14.467 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-05 13:12:14.482 +07:00 [INF] Request finished in 47.9824ms 200 application/javascript
+2021-06-05 13:12:14.482 +07:00 [INF] Request finished in 48.8294ms 200 text/css
+2021-06-05 13:12:14.496 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-05 13:12:14.504 +07:00 [INF] Request finished in 70.8193ms 200 application/javascript
+2021-06-05 13:12:14.701 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-06-05 13:12:14.814 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 13:12:14.814 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 13:12:14.827 +07:00 [INF] Request finished in 12.8407ms 404 
+2021-06-05 13:12:14.827 +07:00 [INF] Request finished in 12.8407ms 404 
+2021-06-05 13:12:14.841 +07:00 [INF] Request finished in 140.1173ms 200 application/json;charset=utf-8
+2021-06-05 13:12:14.842 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-06-05 13:12:14.843 +07:00 [INF] Request finished in 1.2306ms 404 
+2021-06-05 13:12:14.846 +07:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-06-05 13:12:14.846 +07:00 [INF] Request finished in 0.3653ms 404 

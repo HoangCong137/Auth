@@ -1,0 +1,157 @@
+2023-04-06 10:31:37.634 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-06 10:31:40.364 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-06 10:31:40.365 +07:00 [INF] Hosting environment: Development
+2023-04-06 10:31:40.366 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-06 10:31:40.473 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-06 10:31:40.923 +07:00 [INF] Request finished in 451.7414ms 200 text/html;charset=utf-8
+2023-04-06 10:31:40.985 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-bundle.js  
+2023-04-06 10:31:40.985 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui.css  
+2023-04-06 10:31:41.106 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-06 10:31:41.216 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js  
+2023-04-06 10:31:41.234 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-06 10:31:41.236 +07:00 [INF] Request finished in 129.7319ms 200 application/javascript; charset=utf-8
+2023-04-06 10:31:41.270 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-04-06 10:31:41.270 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-04-06 10:31:41.271 +07:00 [INF] Request finished in 55.0134ms 200 application/javascript
+2023-04-06 10:31:41.271 +07:00 [INF] Request finished in 286.0666ms 200 text/css
+2023-04-06 10:31:41.288 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-04-06 10:31:41.288 +07:00 [INF] Request finished in 303.7481ms 200 application/javascript
+2023-04-06 10:31:41.825 +07:00 [INF] Request finished in 590.4459ms 200 text/javascript; charset=UTF-8
+2023-04-06 10:31:41.916 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-06 10:31:41.960 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/favicon-32x32.png  
+2023-04-06 10:31:41.961 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-04-06 10:31:41.962 +07:00 [INF] Request finished in 2.0695ms 200 image/png
+2023-04-06 10:31:42.042 +07:00 [INF] Request finished in 125.8281ms 200 application/json;charset=utf-8
+2023-04-06 16:00:44.354 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-06 16:00:48.807 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-06 16:00:48.808 +07:00 [INF] Hosting environment: Development
+2023-04-06 16:00:48.809 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-06 16:00:48.960 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-06 16:00:49.991 +07:00 [INF] Request finished in 1033.4446ms 200 text/html;charset=utf-8
+2023-04-06 16:00:50.060 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-06 16:00:50.065 +07:00 [INF] Request finished in 4.5314ms 200 application/javascript; charset=utf-8
+2023-04-06 16:00:50.089 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-06 16:00:50.218 +07:00 [INF] Request finished in 128.9945ms 200 text/javascript; charset=UTF-8
+2023-04-06 16:01:03.535 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-06 16:01:04.340 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-06 16:01:04.340 +07:00 [INF] Hosting environment: Development
+2023-04-06 16:01:04.340 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-06 16:01:04.423 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-06 16:01:04.725 +07:00 [INF] Request finished in 304.9728ms 200 text/html;charset=utf-8
+2023-04-06 16:01:04.767 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-06 16:01:04.776 +07:00 [INF] Request finished in 9.0517ms 200 application/javascript; charset=utf-8
+2023-04-06 16:01:04.807 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-06 16:01:04.832 +07:00 [INF] Request finished in 24.6869ms 200 text/javascript; charset=UTF-8
+2023-04-06 16:01:04.983 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-06 16:01:05.176 +07:00 [INF] Request finished in 194.0343ms 200 application/json;charset=utf-8
+2023-04-06 16:04:01.052 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 92
+2023-04-06 16:04:01.056 +07:00 [INF] CORS policy execution successful.
+2023-04-06 16:04:01.082 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-06 16:04:01.153 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-06 16:04:02.846 +07:00 [INF] Executing action method AuthServer.Controllers.AuthController.Register (AuthServer) - Validation state: "Valid"
+2023-04-06 16:04:04.126 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 2969.8411ms
+2023-04-06 16:04:04.129 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-06 16:04:04.131 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:abbc0084-bdba-4ccf-a629-7ce51958c033
+Error Number:18456,State:1,Class:14
+2023-04-06 16:04:04.273 +07:00 [INF] Request finished in 3231.6159ms 500 text/plain
+2023-04-06 16:04:52.215 +07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44307/api/auth/registerEmail application/json 92
+2023-04-06 16:04:52.217 +07:00 [INF] CORS policy execution successful.
+2023-04-06 16:04:52.219 +07:00 [INF] Executing endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-06 16:04:52.220 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AuthServer.Infrastructure.ServiceModel.ServiceResponse] Register(AuthServer.Infrastructure.ViewModel.RegisterViewModelEmail) on controller AuthServer.Controllers.AuthController (AuthServer).
+2023-04-06 16:04:52.504 +07:00 [INF] Executing action method AuthServer.Controllers.AuthController.Register (AuthServer) - Validation state: "Valid"
+2023-04-06 16:04:52.983 +07:00 [INF] Executed action AuthServer.Controllers.AuthController.Register (AuthServer) in 762.5992ms
+2023-04-06 16:04:52.983 +07:00 [INF] Executed endpoint 'AuthServer.Controllers.AuthController.Register (AuthServer)'
+2023-04-06 16:04:52.983 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at AuthServer.Infrastructure.Service.Auth.AuthService.CreateUserAsyncEmail(RegisterViewModelEmail User) in D:\Backend\authserver-master\AuthServer.Infrastructure\Service\Auth\AuthService.cs:line 84
+   at AuthServer.Controllers.AuthController.Register(RegisterViewModelEmail model) in D:\Backend\authserver-master\AuthServer\Controllers\AuthController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:fd05fdae-de56-4161-b1d7-ea7d36e58e72
+Error Number:18456,State:1,Class:14
+2023-04-06 16:04:52.987 +07:00 [INF] Request finished in 780.1311ms 500 text/plain
+2023-04-06 16:25:13.443 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-06 16:25:13.795 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-06 16:25:13.795 +07:00 [INF] Hosting environment: Development
+2023-04-06 16:25:13.795 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-06 16:25:13.820 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-06 16:25:14.003 +07:00 [INF] Request finished in 186.7734ms 200 text/html;charset=utf-8
+2023-04-06 16:25:14.044 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-06 16:25:14.050 +07:00 [INF] Request finished in 5.5336ms 200 application/javascript; charset=utf-8
+2023-04-06 16:25:14.065 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-06 16:25:14.079 +07:00 [INF] Request finished in 14.3896ms 200 text/javascript; charset=UTF-8
+2023-04-06 16:25:14.240 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-06 16:25:14.371 +07:00 [INF] Request finished in 131.7487ms 200 application/json;charset=utf-8
+2023-04-06 16:25:20.006 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/  
+2023-04-06 16:25:20.018 +07:00 [INF] Request finished in 12.8225ms 404 
+2023-04-06 16:25:22.660 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/  
+2023-04-06 16:25:22.665 +07:00 [INF] Request finished in 4.8689ms 404 
+2023-04-06 16:25:27.795 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-06 16:25:28.064 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-06 16:25:28.065 +07:00 [INF] Hosting environment: Development
+2023-04-06 16:25:28.065 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-06 16:25:28.083 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-06 16:25:28.225 +07:00 [INF] Request finished in 145.3843ms 200 text/html;charset=utf-8
+2023-04-06 16:25:28.269 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-06 16:25:28.273 +07:00 [INF] Request finished in 4.0158ms 200 application/javascript; charset=utf-8
+2023-04-06 16:25:28.289 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-06 16:25:28.301 +07:00 [INF] Request finished in 12.459ms 200 text/javascript; charset=UTF-8
+2023-04-06 16:25:28.444 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-06 16:25:28.509 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/favicon-32x32.png  
+2023-04-06 16:25:28.540 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-04-06 16:25:28.540 +07:00 [INF] Request finished in 31.3976ms 200 image/png
+2023-04-06 16:25:28.646 +07:00 [INF] Request finished in 202.5648ms 200 application/json;charset=utf-8
+2023-04-06 16:37:50.454 +07:00 [INF] User profile is available. Using 'C:\Users\caoxu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-06 16:37:50.948 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-06 16:37:50.948 +07:00 [INF] Hosting environment: Development
+2023-04-06 16:37:50.948 +07:00 [INF] Content root path: D:\Backend\authserver-master\AuthServer
+2023-04-06 16:37:50.977 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/index.html  
+2023-04-06 16:37:51.155 +07:00 [INF] Request finished in 180.6801ms 200 text/html;charset=utf-8
+2023-04-06 16:37:51.343 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js  
+2023-04-06 16:37:51.345 +07:00 [INF] Request finished in 2.237ms 200 application/javascript; charset=utf-8
+2023-04-06 16:37:51.374 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/_vs/browserLink  
+2023-04-06 16:37:51.394 +07:00 [INF] Request finished in 19.9606ms 200 text/javascript; charset=UTF-8
+2023-04-06 16:37:51.596 +07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44307/swagger/v1/swagger.json  
+2023-04-06 16:37:51.712 +07:00 [INF] Request finished in 116.0255ms 200 application/json;charset=utf-8

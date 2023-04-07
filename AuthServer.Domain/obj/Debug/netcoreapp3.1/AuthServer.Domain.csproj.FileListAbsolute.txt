@@ -1,0 +1,10 @@
+D:\Backend\authserver-master\AuthServer.Domain\bin\Debug\netcoreapp3.1\AuthServer.Domain.deps.json
+D:\Backend\authserver-master\AuthServer.Domain\bin\Debug\netcoreapp3.1\AuthServer.Domain.dll
+D:\Backend\authserver-master\AuthServer.Domain\bin\Debug\netcoreapp3.1\AuthServer.Domain.pdb
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.csproj.AssemblyReference.cache
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.AssemblyInfoInputs.cache
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.AssemblyInfo.cs
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.csproj.CoreCompileInputs.cache
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.dll
+D:\Backend\authserver-master\AuthServer.Domain\obj\Debug\netcoreapp3.1\AuthServer.Domain.pdb
